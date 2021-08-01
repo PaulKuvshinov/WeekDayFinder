@@ -45,6 +45,7 @@ class ViewController: UIViewController {
 
 // вывод результата в лейбл
         resultLabel.text = capitalizedWeekDay
+        print("Hello, Git")
     }
 
 // метод для сворачивания клавиатуры при нажатии на пустое место экрана
