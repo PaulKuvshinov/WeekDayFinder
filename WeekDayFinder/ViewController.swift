@@ -50,6 +50,7 @@ class ViewController: UIViewController {
 // метод для сворачивания клавиатуры при нажатии на пустое место экрана
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
+        print("Keyboard hide")
     }
 }
 
